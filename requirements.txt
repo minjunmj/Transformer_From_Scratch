@@ -1,0 +1,56 @@
+# =========================
+# Deep Learning / Torch
+# =========================
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+triton==3.2.0
+
+# =========================
+# HuggingFace / NLP
+# =========================
+transformers
+datasets
+tokenizers
+sentencepiece==0.2.1
+huggingface_hub
+accelerate
+safetensors
+sacrebleu==2.6.0
+
+# =========================
+# Scientific Computing
+# =========================
+numpy
+scipy
+pandas
+scikit-learn
+sympy
+pyarrow
+numexpr
+Bottleneck
+mpmath
+
+# =========================
+# Visualization / Logging
+# =========================
+matplotlib==3.10.8
+tqdm
+rich
+tabulate
+wandb==0.24.0
+
+# =========================
+# Python Utils
+# =========================
+requests
+regex
+filelock
+packaging
+typing_extensions
+python-dotenv
+PyYAML
+joblib
+psutil
+platformdirs
+six
