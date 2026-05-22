@@ -7,7 +7,6 @@
 
 ## Rules
 
-- Upload the project to the "transformer_from_scratch" folder in the CS224N GitHub repository.
 - Set up a virtual environment and include the dependency package list in a requirements.txt file.
 - Do not use pre-trained models from Hugging Face! Preferably, use PyTorch-based implementations.
 - Hyperparameters should be based on the "Attention Is All You Need" paper.
@@ -21,7 +20,7 @@
 
 - Dataset: Use wmt/wmt19 from Hugging Face Datasets.
   - Split the validation set: use half as dev_set and the other half as test_set.
-- Tokenizer: Any pre-existing tokenizer from existing models can be used.
+- Tokenizer: bert-base-uncased
 - Training and Evaluation:
   - Loss function: Cross-entropy loss
   - Optimizer: Adam
